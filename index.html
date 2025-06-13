@@ -43,7 +43,7 @@
 </script>
 </head>
 <body>
-<main>
+main>
 <div class="container">
         <header class="col-12">
             <h1 style="box-shadow: inset 5px 5px 24px rgba(55, 87, 59, 0.5);padding:15px; text-align: center; margin-top: 20px;margin-bottom:20px;"> New Blackwall and Silvertown tunnel charges</h1>
@@ -57,7 +57,7 @@
   <div class="row first-row">
     <div class="col-2">
     </div>
-    <div class=" col col-10">
+    <div class=" col-sm-12 col-md-8 col-lg-8">
                 <h2 style="text-align: center; padding:50px"> Some facts about cars today ?</h2>
                 <img src="./images/HeavierCars.png" style="height:350px; margin-left: 20px; width:350px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); float:right;">
               <ul style="padding-top: 5px;font-weight: 500;">
@@ -69,12 +69,15 @@
                       <div id="popup-cardP" class="popupP">
                       <div class="popupP-content">
                       <span class="close-btn" onclick="togglePopupP()">&times;</span>
-                      <img src="./images/GraphEnergyUsage.png" alt="graph of energy used by various transport types">
+                      <img src="./images/GraphEnergyUsage.png" class="img-fluid" alt="graph of energy used by various transport types">
                 <li>Have you considered a car club, especially one for your work colleagues?</li>
                 <li>More cars mean more parking headaches.</li>
               </ul>
     </div>
   </div>
+     <div class="col-2">
+
+     </div>
   <div class="row after-first">
     <div class=" col-12 col-lg-12 col-md-8">
       <h2>Britain's cars Catch-22</h2>
@@ -166,7 +169,7 @@
           <div style="height:300px; width:300px;" class="flip-card-back">
               <h3 style="padding-top:20px;">Solution:Train Travel off-peak</h3> 
               <p>Travel by train off-peak. </p> 
-              <img src="./images/TrainEmpty.jpg" style="width:100px;height:100px;">
+              <img src="./images/TrainEmpty.jpg" class="img-fluid" style="width:100px;height:100px;">
           </div>
         </div>
       </div>
@@ -175,7 +178,7 @@
     <h2>Do you think the Charges are fair? </h2>
   </div>
   <div class="row third-row">
-    <div class="col-xsm-12 col-sm-12 col-md-6 col-lg-6  col-xlg-6">    
+    <div class="col-xsm-12 col-sm-12 col-md-6 col-lg-6  col-xl-6">    
             <h3 style="padding-left:12px;"> Give us your story! </h3>
             <ul style="font-weight: 500;">
             <li>How were you introduced to the new charges?</li>
@@ -186,7 +189,7 @@
             <li>Did you hear any news bulletins about the new charges?</li>
             </ul>
             </div>
-    <div class=" col-xsm-12 col-sm-12 col-md-6 col-lg-6 col-xlg-6">
+    <div class=" col-xsm-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <h3>  A summary of the charges and penalties</h3>
                     <h6>The charges are as follows...</h6>
                     <p style="font-weight: 500;">
@@ -225,13 +228,14 @@
                 <strong style="color:red"> Warnings </strong>about the new Blackwall and Silvertown charges: <u>virtually not existant.</u><strong style="color:blue"> 
                   Then there is the signage: </strong> <u>Signage too faint, 
                 and in small lettering, too small to even notice. </u>
-                TfL will be reaping millions from first time offenders who were not properly informed, and who missed the subtle signage. Leave your <a href="index.html#comment-list"><strong style="color:blue">comment</strong></a>
+                TfL will be reaping millions from first time offenders who were not properly informed, and who missed the subtle signage. 
+                Leave your <a href="index.html#pow"><strong style="color:blue">comment</strong></a>
               </p>
   <div class="row before-four">
     <div class="col-md-6" >
                   <h3>Blackwall tunnel southern approach</h3> 
                   <a class="text-on-image4" href="https://drive.google.com/file/d/1FXYE1KqH37cjScqSyNbLzokcD_cI00Bp/view?usp=drive_link">
-                  <img id="iframe" src="./images/HeavyCarsFinal.PNG" width="320" height="128" >
+                  <img id="iframe" src="./images/HeavyCarsFinal.PNG" width="420" height="328" >
                   <button class="btnStyle1">Play Video</button></a>
   </div>
   <div class="col-md-6 ">
@@ -242,42 +246,97 @@
   </div>
   <div class="row spare-row">
     <div class="col-md-6">
-              <h4 style="padding-left:200px">Pointers</h4>
+              <h4 style="padding-left:250px">Pointers</h4>
               <ul style="list-style-type:none;font-weight: 500;">
-              <li>The journey was 11 miles from my home to the Blackwall tunnel. </li>
-              <li>There were three Blackwall and Silvertown charge warning signs.</li>
-              <img src="./images/TunChgWarnSignNbound.png"style="height:410px; width:400px; padding:10px;" alt="warning sign about charges Blackwall tunnel">
-              <li>There were six signs for heavy vehicles times, diversions etc.</li>
-              <li>There was one overhead sign Northbound in 11 miles.</li>
-              <img src="./images/TunChgsWarnSignOheadNbound.png" style="height:450px; width:400px; padding:10px;" alt="warning sign about Blackwall tunnel">
-              <li>There was no signage at the tunnel Northbound.</li>
-              <img src="./images/BlackwallTunnelSouthernApproachGetInLane.png" style="height:450px; width:400px; padding:10px;"alt="going into Blackwall tunnel Northbound">
-              </ul>
+              <li style="padding:10px 0px 20px 20px;font-size: larger;">The journey was 11 miles from my home to the Blackwall tunnel. There were three Blackwall and Silvertown charge warning signs.</li>
+              <figure>
+              <img src="./images/TunChgWarnSignNbound.png" alt="Sparse signage before Blackwall Tunnel" style="width:100%; height:650px;box-shadow: 0 4px 12px rgba(0,0,0,0.3); margin-bottom: 10px;">
+              <figcaption style="padding:0px 0px 50px 50px; font-size: larger;">The first sign into London; are you a speed-reader?</figcaption>
+              </figure>
+              <!--<img src="./images/TunChgWarnSignNbound.png"style="height:410px; width:400px; padding:10px;" alt="warning sign about charges Blackwall tunnel">-->
+              <li style="padding:10px 0px 20px 20px;font-size: larger;">There were six signs for heavy vehicles times, diversions etc.
+              There was one overhead sign Northbound in 11 miles.</li>
+              <figure>
+              <img src="./images/TunChgsWarnSignOheadNbound.png" alt="Sparse signage before Blackwall Tunnel" style="width:100%; height:650px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); margin-bottom: 10px;">
+              <figcaption style="padding:0px 0px 50px 20px;font-size: larger;">Only the second sign in 8 miles, too little, too late for most drivers.</figcaption>
+              </figure>
+             <!--<img src="./images/" style="height:450px; width:400px; padding:10px;" alt="warning sign about Blackwall tunnel">--> 
+              
+             <li style="padding:10px 0px 20px 20px;font-size: larger;">There was no signage at the tunnel Northbound.</li>
+              <figure>
+              <img src="./images/BlackwallTunnelSouthernApproachGetInLane.png" alt="Sparse signage before Blackwall Tunnel" style="width:100%; box-shadow: 0 4px 12px rgba(0,0,0,0.3); margin-bottom: 10px;">
+              <figcaption style="padding:10px 0px 20px 20px;font-size: larger;">Entering the tunnel, no sign of a toll sign!</figcaption>
+              </figure>
+             <!--<img src="./images/BlackwallTunnelSouthernApproachGetInLane.png" style="height:450px; width:400px; padding:10px;"alt="going into Blackwall tunnel Northbound">
+            -->
+            </ul>
     </div>
     <div class="col-md-6">
-              <h4 style="padding-left:200px">Pointers</h4>
+              <h4 style="padding-left:250px">Pointers</h4>
               <ul style="list-style-type:none;font-weight: 500;">
-              <li>18 miles up the A12 to the Blackwall tunnel Southbound.</li>
-              <li>About three signs warning of Blackwall tunnel charges.</li>
-              <img src="./images/A12ApproachBlackwallTunSignBlue.png" style="height:410px; width:400px; padding:10px;">
-              <li>Heavy vehicles signs (no that's not you).</li>
-              <li>There was one reminder sign to pay charges, easily missed!</li>
-              <img src="./images/ReminderPayTunnelChargeSouthbound.png" style="height:450px; width:400px; padding:10px;">
-              <li>No signage entering tunnel Southbound.</li>
-              <img src="./images/BlackwallTunnelNorthernApproachNoSign.png " style="height:450px; width:400px; padding:10px;">
-              </ul>
+              <li style="padding:10px 0 20px 20px; font-size: larger;">18 miles up the A12 to the Blackwall tunnel Southbound. 
+                There were three signs warning of Blackwall tunnel charges going into London.</li>
+            
+              <figure>
+              <img src="./images/A12ApproachBlackwallTunSignBlue.png" alt="Sparse signage before Blackwall Tunnel" style="width:100%; height:650px;box-shadow: 0 4px 12px rgba(0,0,0,0.3); margin-bottom: 10px;">
+                <figcaption style="padding:0px 0 50px 50px; font-size: larger;">The sign doesn't exactly jump out at you, easily missed!</figcaption>
+              </figure>
+            
+              <!-- <img src="./images/A12ApproachBlackwallTunSignBlue.png" style="height:410px; width:400px; padding:10px;">-->
+              <li style="padding:10px 0px 20px 20px;font-size: larger;">Heavy vehicles signs (no that's not you)
+              There was one reminder sign to pay charges, don't blink when driving.</li>
+              <figure>
+              <img src="./images/ReminderPayTunnelChargeSouthbound.png" alt="Sparse signage before Blackwall Tunnel" style="width:100%; height:650px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); margin-bottom: 10px;">
+              <figcaption style="padding:0px 0px 80px 20px;font-size: larger;">Overhead signs must be read instantly!</figcaption>
+              </figure>
+              <li style="padding:10px 0px 20px 20px;font-size: larger;"> A reminder sign here to 'pay the toll' would be appropriate!</li>
+              <figure>
+              <img src="./images/BlackwallTunnelNorthernApproachNoSign.png" alt="Sparse signage before Blackwall Tunnel" style="width:100%; height:770px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); margin-bottom: 10px;">
+              <figcaption style="padding:10px 0px 20px 20px;font-size: larger;"></figcaptionstyle> Are we paying for the old(new) Tunnel too?</figcaption>
+              </figure>
+             <!-- <img src="./images/ReminderPayTunnelChargeSouthbound.png" style="height:450px; width:400px; padding:10px;">
+             -->
+            
+              
+            
     </div>
   </div>
-  <div class="row forth-row" >
-    <div class="col-xsm-12 col-sm-12 col-md-11 col-lg-11 col-xlg-11" >
-        <div class="powr-comments" id="72b72f27_1749792151"></div>
+  <div class="row forth-row"  id="pow"  >
+    <div class="powr-comments"id="72b72f27_1749792151"></div>
     <script src="https://www.powr.io/powr.js?platform=html"></script>
 
+<!-- begin wwww.htmlcommentbox.com -->
+ 
+<!-- end www.htmlcommentbox.com -->
 
-               
+
+
+    <!--
+    <div class="col-xsm-12 col-sm-12 col-md-11 col-lg-11 col-xl-11" id="comment-list">
+    <h5 style="padding:60px; color:black;">Comments from the other road users...</h5>
+    </div>
+    <div class="col-xsm-12 col-sm-12 col-md-11 col-lg-11 col-xl-11" id="comment-section" >-->
+      <!-- this is the script to generate utterances from GitHub
+      <script src="https://utteranc.es/client.js"
+        repo="Madeadezign864/BlackwallAndSilvertownTunnels"
+        issue-term="og:title"
+        label="Blackwall"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>-->
+                     <!-- <h5 style="padding-top:60px; color:black;">How did you come to hear of the charges?</h5>
+                  
+                    <a svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-incognito" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="m4.736 1.968-.892 3.269-.014.058C2.113 5.568 1 6.006 1 6.5 1 7.328 4.134 8 8 8s7-.672 7-1.5c0-.494-1.113-.932-2.83-1.205l-.014-.058-.892-3.27c-.146-.533-.698-.849-1.239-.734C9.411 1.363 8.62 1.5 8 1.5s-1.411-.136-2.025-.267c-.541-.115-1.093.2-1.239.735m.015 3.867a.25.25 0 0 1 .274-.224c.9.092 1.91.143 2.975.143a30 30 0 0 0 2.975-.143.25.25 0 0 1 .05.498c-.918.093-1.944.145-3.025.145s-2.107-.052-3.025-.145a.25.25 0 0 1-.224-.274M3.5 10h2a.5.5 0 0 1 .5.5v1a1.5 1.5 0 0 1-3 0v-1a.5.5 0 0 1 .5-.5m-1.5.5q.001-.264.085-.5H2a.5.5 0 0 1 0-1h3.5a1.5 1.5 0 0 1 1.488 1.312 3.5 3.5 0 0 1 2.024 0A1.5 1.5 0 0 1 10.5 9H14a.5.5 0 0 1 0 1h-.085q.084.236.085.5v1a2.5 2.5 0 0 1-5 0v-.14l-.21-.07a2.5 2.5 0 0 0-1.58 0l-.21.07v.14a2.5 2.5 0 0 1-5 0zm8.5-.5h2a.5.5 0 0 1 .5.5v1a1.5 1.5 0 0 1-3 0v-1a.5.5 0 0 1 .5-.5"/>
+                    </svg></a>
+                    <button type="button" class="btn btn-primary onclick="googleLogin()><strong>Sign in with Google</strong></button>
+                    <textarea id="comment-box" placeholder="Write your comment here..."></textarea>
+                    <button  type="button" class="btn btn-primary onclick="postComment()><strong>Post Comment</strong></button>
+                    -->
     </div>
   </div>
-
+</div>
 </main>
 <footer>
   <div>
