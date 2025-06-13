@@ -42,7 +42,7 @@ mark{
   cursor: pointer;
   font-size: 20px;
 }
-/* ✅ Comments Box */
+/* ✅ Comments Box 
 #comment-box {
   width: 80%;
   height: 45%;
@@ -52,7 +52,7 @@ mark{
   font-size: 16px;
   border: 2px solid #ccc;
 }
-/* ✅ Comments List */
+ ✅ Comments List 
 #comment-list {
   background: #f4f4f4;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -62,7 +62,7 @@ mark{
 #comment-section {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-}
+}*/
 .third-row{
   display:flex;
   flex-wrap:wrap;
