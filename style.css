@@ -145,7 +145,7 @@ div .puzzledMan{
 .before-four .btnStyle1 {
   position:relative;
   top:-100px;
-  left:30px;
+  left:35px;
   transform: translate(-50%, -50%);
   background-color:blue; /* Optional: Add a background color to the button */
   color: white; /* Optional: Change the text color */
@@ -156,7 +156,7 @@ div .puzzledMan{
 .before-four .btnStyle2 {
   position:relative;
   top:-100px;
-  left: 30px;
+  left: 35px;
   transform: translate(-50%, -50%);
   background-color:blue; /* Optional: Add a background color to the button */
   color: white; /* Optional: Change the text color */
