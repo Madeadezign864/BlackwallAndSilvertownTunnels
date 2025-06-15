@@ -42,7 +42,7 @@ mark{
   cursor: pointer;
   font-size: 20px;
 }
-/* ✅ Comments Box 
+/* ✅ Comments Box */
 #comment-box {
   width: 80%;
   height: 45%;
@@ -52,7 +52,7 @@ mark{
   font-size: 16px;
   border: 2px solid #ccc;
 }
- ✅ Comments List 
+/* ✅ Comments List */
 #comment-list {
   background: #f4f4f4;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -62,7 +62,7 @@ mark{
 #comment-section {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-}*/
+}
 .third-row{
   display:flex;
   flex-wrap:wrap;
@@ -124,6 +124,10 @@ button {
 h5{
     text-align: center;
 }
+h3{
+
+padding:60px 0px 0px 30px;
+}
 .btn:hover {
   color:red;
   background-color: aliceblue;
@@ -134,9 +138,10 @@ div .puzzledMan{
   width:70px;
 }
 #iframe {
-  margin: 50px 0px 50px 50px;
-  height:375px;
-  width:375px;
+  margin: 20px 20px 0px 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  height:475px;
+  width:475px;
 }
 .video {
   position:relative;
@@ -145,7 +150,7 @@ div .puzzledMan{
 .before-four .btnStyle1 {
   position:relative;
   top:-100px;
-  left:35px;
+  left:37px;
   transform: translate(-50%, -50%);
   background-color:blue; /* Optional: Add a background color to the button */
   color: white; /* Optional: Change the text color */
@@ -156,7 +161,7 @@ div .puzzledMan{
 .before-four .btnStyle2 {
   position:relative;
   top:-100px;
-  left: 35px;
+  left: 37px;
   transform: translate(-50%, -50%);
   background-color:blue; /* Optional: Add a background color to the button */
   color: white; /* Optional: Change the text color */
@@ -174,7 +179,7 @@ footer div{
   justify-content: center;
   align-items: center;
   height:200px;
-  margin-top: 130px;
+  margin-top: 50px;
   padding-bottom: 80px;
 }
 /* width */
@@ -227,3 +232,4 @@ footer div{
   color: white;
   transform: rotateY(180deg);
 }
+
