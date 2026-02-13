@@ -232,4 +232,8 @@ footer div{
   color: white;
   transform: rotateY(180deg);
 }
+#laybys{
+  font-weight:700;
+}
+
 
